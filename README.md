@@ -1,12 +1,12 @@
-# 🏟️  Server Side
+# 🏟️  Sport Nest Server Side
 
-> RESTful API server for the ArenaPulse sports facility booking platform. Handles all data operations for facilities and bookings with JWT-based authentication.
+> RESTful API server for the SportNest sports facility booking platform. Handles all data operations for facilities and bookings with JWT-based authentication.
 
 ---
 
 ## 📌 Purpose
 
-This is the backend of ArenaPulse — a Node.js + Express REST API that connects to MongoDB. It serves facility and booking data to the Next.js frontend, and protects sensitive routes using JWT verification via JWKS (JSON Web Key Set).
+This is the backend of sport nest — a Node.js + Express REST API that connects to MongoDB. It serves facility and booking data to the Next.js frontend, and protects sensitive routes using JWT verification via JWKS (JSON Web Key Set).
 
 ---
 
@@ -143,4 +143,4 @@ node index.js
 ## 👤 Author
 
 **Kazi Md Osman Goni**
-GitHub: 
+GitHub: [osman873](https://github.com/osman87326)
