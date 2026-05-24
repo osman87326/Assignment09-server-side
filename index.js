@@ -49,9 +49,9 @@ const verifyToken = async (req, res, next) => {
 };
 
 // ===================== DB ROUTES =====================
-async function run() {
-  try {
-    await client.connect();
+// async function run() {
+//   try {
+//     await client.connect();
 
     const database = client.db("sport-nest");
     const facilityCollection = database.collection("facilities");
@@ -189,12 +189,12 @@ async function run() {
       const result = await facilityCollection.find(query).toArray();
       res.json(result);
     });
-  } finally {
-    // keep connection alive
-  }
-}
+//   } finally {
+//     // keep connection alive
+//   }
+// }
 
-run().catch(console.dir);
+// run().catch(console.dir);
 
 // ---------- ROOT ----------
 app.get("/", (req, res) => {
